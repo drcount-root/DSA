@@ -1,4 +1,4 @@
-## Two Pointer
+## Two Pointers
 
 [2 Sum](./two_pointer/two_pointer/two_sum.js)
 
