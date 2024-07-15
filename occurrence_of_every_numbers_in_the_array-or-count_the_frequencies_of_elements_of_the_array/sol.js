@@ -20,3 +20,8 @@ console.log(occurrenceFinderFn([1, 3, 4, 1, 2, 6, 8, 3, 4, 1, 2, 8]));
 console.log(occurrenceFinderFn([])); // Expected output: Map {}
 console.log(occurrenceFinderFn([1, 2, 3, 4, 5])); // Expected output: Map {1 => 1, 2 => 1, 3 => 1, 4 => 1, 5 => 1}
 console.log(occurrenceFinderFn([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])); // Expected output: Map {1 => 1, 2 => 2, 3 => 3, 4 => 4}
+
+/**
+ * Time complexity: O(n)
+ * Space complexity: O(n)
+ */
