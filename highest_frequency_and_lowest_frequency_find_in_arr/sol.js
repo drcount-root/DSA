@@ -11,8 +11,6 @@ const finderFn = (arr) => {
     }
   }
 
-  console.log(hashMap)
-
   let maxCount = 0,
     minCount = arr.length;
 
@@ -25,3 +23,6 @@ const finderFn = (arr) => {
 };
 
 console.log(finderFn([1, 3, 4, 1, 2, 6, 8, 3, 4, 1, 2, 8]));
+
+// Time complexity: O(n)
+// Space complexity: O(n)
