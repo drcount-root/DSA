@@ -1,28 +1,30 @@
-const revStr = (str) => {
-  console.log(str);
+// const revStr = (str) => {
+  //   console.log(str);
 
-  const add = (s, c) => {
-    return s + c;
-  };
+  //   const add = (s, c) => {
+  //     return s + c;
+  //   };
 
-  if (str === null || str.length <= 1) {
-    return str;
+  //   if (str === null || str.length <= 1) {
+  //     return str;
+  //   }
+
+  //   return add(revStr(str.substring(1)), str.charAt(str));
+
+const revStr = (s, newStr, step) => {
+
+  if (step <= s.length) {
+    newStr += s[s.length - step];
+    step++;
+    revStr(s, newStr, step);
+  } else {
+    console.log(newStr);
+    return newStr;
   }
-
-  return add(revStr(str.substring(1)), str.charAt(str));
-
-  // if(step <= s.length){
-  //     newStr += s[s.length - step];
-  //     step++
-  //      revStr(s, newStr, step)
-  // }else{
-  //     console.log(newStr)
-  //     return newStr
-  // }
 };
 
-revStr("Hello");
-// revStr("Hello", "", 1);
+// revStr("Hello");
+revStr("Hello", "", 1);
 // console.log()
 
 // // reverse an array using recursion
