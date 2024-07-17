@@ -1,3 +1,5 @@
+// Factorial of a number using recursion
+
 const factorialFn = (num) => {
   let fact = 1;
 
