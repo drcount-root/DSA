@@ -47,3 +47,9 @@ console.log(numIdenticalPairs([1, 2, 3, 1, 1, 3]));
 console.log(numIdenticalPairs([1, 1, 1, 1]));
 
 console.log(numIdenticalPairs([1, 2, 3]));
+
+
+/*
+Time Complexity: O(n), where n is the length of the array. We iterate through the array once to count the good pairs.
+Space Complexity: O(n), where n is the length of the array. In the worst case, we store n unique numbers in the frequency map.
+*/
